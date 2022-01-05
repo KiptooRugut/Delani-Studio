@@ -129,3 +129,12 @@
     align-content: center;
     padding-left: 1%;
 }
+
+#text_area::placeholder {
+    color: white;
+}
+
+#contact::placeholder {
+    color: white;
+    padding-left: 2%;
+}
