@@ -54,3 +54,13 @@
     height: 450px;
     padding: 100px;
 }
+
+.services>h1 {
+    font-weight: bolder;
+}
+
+.services>p {
+    font-weight: 520;
+    line-height: 50px;
+    font-size: 20px;
+}
