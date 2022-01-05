@@ -97,3 +97,18 @@
     background-size: cover;
     padding-bottom: 100px;
 }
+
+.contactus>h1 {
+    color: white;
+    font-weight: bold;
+    padding: 50px 0px 20px 0px;
+    text-align: center;
+}
+
+.contact {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 0px;
+}
