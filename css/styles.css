@@ -64,3 +64,19 @@
     line-height: 50px;
     font-size: 20px;
 }
+
+.whatwedo {
+    margin: 40px;
+    padding: 30px;
+}
+
+.whatwe {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 2% 0% 0% 10%;
+}
+
+.whatwedo>h1 {
+    font-weight: bold;
+}
