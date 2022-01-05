@@ -90,3 +90,10 @@
 .portfolio>h1 {
     font-weight: bold;
 }
+
+.contactus {
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
