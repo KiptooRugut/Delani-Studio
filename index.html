@@ -38,54 +38,109 @@
 
     <div class="whatwedo text-center">
         <h1>WHAT WE DO</h1>
-
-        <div class="whatwe">
-            <div>
-                <img src="./assets/services_icons/design_icon.png" alt="Designpic">
-                <p>DESIGN</p>
+        <div class="row">
+            <div class="col-md-4 design">
+                <img src="./assets/services_icons/design_icon.png" alt="Designpic" id="design">
+                <h5>DESIGN</h5>
+                <p class="design-text">Our design practice offers a full range of services including brand strategy, iteration and visual design and user experience testing</p>
             </div>
-            <div>
-                <img src="./assets/services_icons/dev_icon.png" alt="Developmentpic">
-                <p>DEVELOPMENT</p>
+            <div class="col-md-4 development">
+                <img src=" ./assets/services_icons/dev_icon.png " alt="Developmentpic " id="development">
+                <h5>DEVELOPMENT</h5>
+                <p class="development-text ">All engineers are fluent in the latest enterprise, mobile and web develoment technologies. <br>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair
+                    programming.
+                </p>
             </div>
-            <div>
-                <img src="./assets/services_icons/product_icon.png" alt="Productpic">
-                <p>PRODUCT MANAGEMENT</p>
+            <div class="col-md-4 product">
+                <img src="./assets/services_icons/product_icon.png " alt="Productpic " id="product">
+                <h5>PRODUCT MANAGEMENT</h5>
+                <p class="product-text ">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p class="product-text">This iterative process allows for changes as business requirements evolve.</p>
             </div>
         </div>
     </div>
 
-    <div class="portfolio text-center">
+    <div class="portfolio text-center ">
         <h1>PORTFOLIO</h1>
         <div class=" row portfolio text-center ">
-            <img src="./assets/portfolio/work4.jpg " alt="work4 ">
-            <img src="./assets/portfolio/work3.jpg " alt="work3 ">
-            <img src="./assets/portfolio/work2.jpg " alt="work2 ">
-            <img src="./assets/portfolio/work1.jpg " alt="work1 ">
+            <div id="container">
+                <img src="./assets/portfolio/work4.jpg " alt="project1 " id="project1">
+                <p class="project1 centered1">Project one</p>
+            </div>
+            <div id="container">
+                <img src="./assets/portfolio/work3.jpg " alt="project2 " id="project2">
+                <p class="project2 centered2" style="color: orangered;">Project two</p>
+            </div>
+            <div id="container">
+                <img src="./assets/portfolio/work2.jpg " alt="project3 " id="project3">
+                <p class="project3 centered3">Project three</p>
+            </div id="container">
+            <div id="container">
+                <img src="./assets/portfolio/work1.jpg " alt="project4 " id="project4">
+                <p class="project4 centered4">Project four</p>
+            </div>
         </div>
+
         <div class="row portfolio text-center ">
-            <img src="./assets/portfolio/work5.jpg " alt="work5 ">
-            <img src="./assets/portfolio/work6.jpg " alt="work6 ">
-            <img src="./assets/portfolio/work7.jpg " alt="work7 ">
-            <img src="./assets/portfolio/work8.jpg " alt="work8 ">
+            <div id="container">
+                <img src=" ./assets/portfolio/work5.jpg " alt="project5 " id="project5">
+                <p class="project5 centered5" style="color: orangered;">Project five</p>
+            </div>
+            <div id="container">
+                <img src="./assets/portfolio/work6.jpg " alt="project6 " id="project6">
+                <p class="project6 centered6" style="color: black;">Project six</p>
+            </div>
+            <div id="container">
+                <img src="./assets/portfolio/work7.jpg " alt="project7 " id="project7">
+                <p class="project7 centered7">Project seven</p>
+            </div>
+            <div id="container">
+                <img src="./assets/portfolio/work8.jpg " alt="project8 " id="project8">
+                <p class="project8 centered8">Project eight</p>
+            </div>
         </div>
     </div>
+    </div>
 
-    <div class="contactus">
+    <div class="contactus ">
         <h1>CONTACT US</h1>
-        <div class="contact container">
-            <div class="row">
+        <div class="bs-warning ">
+            <div class="alert alert-warning alert-dismissible fade show ">
+                <strong>Warning!</strong> Please check your email are retry.
+                <button type="button " class="close " data-dismiss="alert ">&times;</button>
+            </div>
+        </div>
+
+        <div class="bs-null ">
+            <div class="alert alert-warning alert-dismissible fade show ">
+                <strong>Warning!</strong> Kindly provide all required fields.
+                <button type="button " class="close " data-dismiss="alert ">&times;</button>
+            </div>
+        </div>
+
+        <div class="bs-success ">
+            <div class="alert alert-success alert-dismissible fade show">
+                <strong>Success!</strong> Thanks <em><span id="username"></span></em> for your feedback. We'll be in touch with you using <span id="subscribeEmail "></span>.
+                <button type="button " class="close" data-dismiss="alert">&times;</button>
+            </div>
+        </div>
+
+        <div class="contact container ">
+            <div class="row ">
                 <div class="col-xm-6 col-sm-6 col-md-6 col-lg-6">
-                    <input type="text" name="name" placeholder="Name... " id="contact">
+                    <input type="text " name="name " placeholder="Name..." id="name">
                 </div>
-                <div class="col-xm-6 col-sm-6 col-md-6 col-lg-6">
-                    <input type="email " name="email " placeholder="Email... " id="contact">
+
+                <div class="col-xm-6 col-sm-6 col-md-6 col-lg-6 ">
+                    <input type="email " name="email " placeholder="Email..." id="email">
                 </div>
             </div>
         </div>
         <div>
-            <textarea name="textarea " id="text_area" cols="100 " rows="10 " placeholder="Your message here... "></textarea>
+            <textarea name="textarea" id="text_area" cols="100" rows="10" placeholder="Your message here... "></textarea>
         </div>
+        <button class="btn btn-primary" onclick="submit()">Submit</button>
+        <button type="reset" onclick="reset()" class="btn btn-danger">Clear</button>
     </div>
 
     <footer>
