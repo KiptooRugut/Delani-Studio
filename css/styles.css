@@ -75,10 +75,22 @@
     justify-content: space-around;
     flex-direction: row;
     padding: 2% 0% 0% 10%;
+    text-align: center;
 }
 
 .whatwedo>h1 {
     font-weight: bold;
+    padding-bottom: 3%;
+}
+
+.design-text,
+.development-text,
+.product-text {
+    display: none;
+}
+
+.imageOpacity {
+    opacity: 0.5;
 }
 
 .portfolio {
@@ -119,6 +131,7 @@
     height: 40px;
     border: 1px solid rgba(255, 255, 255, 0.719);
     margin: 20px;
+    color: white;
 }
 
 #text_area {
@@ -134,9 +147,24 @@
     color: white;
 }
 
-#contact::placeholder {
+#name::placeholder {
     color: white;
     padding-left: 2%;
+}
+
+#email::placeholder {
+    color: white;
+    padding-left: 2%;
+}
+
+#submission {
+    text-align: center;
+}
+
+#submission>button {
+    border: 0px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 15px;
 }
 
 .social {
@@ -149,4 +177,54 @@
 footer {
     padding: 40px 0px 15px 0px;
     text-align: center;
+}
+
+.bs-warning,
+.bs-success,
+.bs-null {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    display: none;
+}
+
+.btn-primary,
+.btn-danger {
+    width: 15%;
+    margin-left: 24%;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.centered1,
+.centered2,
+.centered3,
+.centered4,
+.centered5,
+.centered6,
+.centered7,
+.centered8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#container:hover {
+    opacity: 0.5;
 }
