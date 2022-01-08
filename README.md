@@ -1,8 +1,8 @@
 # Delani-Studio
-## A   BUSINESS WEBSITE THAT SHOWCASE WHAT THEY OFFER INCLUDING THEIR PROJECTS, Jan 2022
+## A BUSINESS WEBSITE THAT SHOWCASE WHAT THEY OFFER INCLUDING THEIR PROJECTS, Jan 2022.
 ### By Kiptoo Rugut
 ## Description
-Delian studio is a design and development studio whose products are as per customer specification. This website describes who and what delian studio does. Moreover, it lists the project done by the studio.
+Delani studio is a design and development studio whose products are as per customer specification. This website describes who and what delani studio does. Moreover, it lists the project done by the studio.
 ## Setup/Installation Requirements
 * Open terminal
 * Change directory to the location you want to copy the project to.
