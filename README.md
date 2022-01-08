@@ -20,9 +20,10 @@ The subscriber is not actually subscribed to the business.
 ## Technologies Used
 * HTML
 * CSS
+* Bootstrap
 * Javascript/jQuery
 ## Support and contact details
-Kindly let us know your feedbacks and concerns and you can also ask questions through our email address rotichenoch27@gmail.com.
+Kindly let us know your feedbacks and concerns and you can also ask questions through our email address mccrug97@gmail.com.
 ### License
 MIT License
 
